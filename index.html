@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>간단한 Todo List</title>
+  <!-- CSS 파일 연결 -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📝 나만의 Todo List</h1>
+    <p class="subtitle">GitHub 실습을 위한 간단한 할 일 관리 웹페이지입니다.</p>
+
+    <!-- 할 일 입력 영역 -->
+    <div class="input-group">
+      <input
+        type="text"
+        id="todo-input"
+        placeholder="할 일을 입력하고 추가 버튼을 누르세요..."
+      />
+      <button id="add-btn">추가</button>
+    </div>
+
+    <!-- 할 일 목록이 표시되는 영역 -->
+    <ul id="todo-list"></ul>
+  </div>
+
+  <!-- JavaScript 파일 연결 -->
+  <script src="script.js"></script>
+</body>
+</html>
