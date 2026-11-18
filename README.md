@@ -47,3 +47,4 @@ git commit -m "test"
 | --- | --- |
 | 로그인 | 성공 |
 | 결제 | 실패 |<img width="352" height="1493" alt="image" src="https://github.com/user-attachments/assets/e0afe82d-e64d-4c82-b132-7e38446f40b5" />
+test
